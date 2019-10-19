@@ -1,0 +1,1 @@
+alias getdates = date | tee /home/akash/fulldate.txt | cut --delimiter=" " --field 1 | tee /home/akash/shortdate.txt | xargs echo hello
